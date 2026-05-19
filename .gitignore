@@ -1,0 +1,44 @@
+# --- OS (Windows / macOS) ---
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*~
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Node / package managers ---
+node_modules/
+.npm/
+.yarn/
+.pnp.*
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Build output ---
+dist/
+build/
+out/
+.cache/
+
+# NOTE: do NOT ignore .nojekyll — it must ship to the repo so GitHub Pages
+# serves files/folders starting with underscores correctly.

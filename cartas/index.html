@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartas — PapaiRomeo</title>
+  <meta name="description" content="Cartas de um pai ao seu filho. Memória, sentimento e reflexão.">
+  <link rel="alternate" hreflang="en" href="https://papairomeo.github.io/letters/">
+  <link rel="alternate" hreflang="pt-BR" href="https://papairomeo.github.io/cartas/">
+  <link rel="canonical" href="https://papairomeo.github.io/cartas/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function() {
+      var stored = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = stored || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/pt/" class="site-logo">PapaiRomeo</a>
+    <nav class="site-nav" aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="/cartas/" class="nav-link">Cartas</a></li>
+        <li class="nav-item"><a href="/pt/contato.html" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+      <a href="/letters/" class="lang-flag" aria-label="English" title="English">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="24" height="16" aria-hidden="true">
+          <clipPath id="us-flag-clip"><rect width="60" height="30"/></clipPath>
+          <rect width="60" height="30" fill="#012169"/>
+          <g clip-path="url(#us-flag-clip)">
+            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="3"/>
+            <path d="M30,0 V30 M0,15 H60" stroke="#fff" stroke-width="10"/>
+            <path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/>
+          </g>
+        </svg>
+      </a>
+      <button type="button" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navegação móvel" hidden>
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="/cartas/" class="mobile-nav-link">Cartas</a></li>
+      <li class="mobile-nav-item"><a href="/pt/contato.html" class="mobile-nav-link">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main-content">
+
+  <h1 class="section-title reveal">Cartas</h1>
+  <p class="section-subtitle reveal">
+    Cartas escritas para o Romeo. Sobre memória, sentimento e reflexão.
+    Sem cobrança. Apenas o que precisava ser dito.
+  </p>
+
+  <div class="letters-intro reveal">
+    Algumas cartas falam do que vivemos. Outras, do que estou sentindo agora.
+    Outras ainda, do que aprendi sobre a vida e gostaria de te contar um dia.
+  </div>
+
+  <div class="letters-list reveal">
+
+    <a href="carta-01.html" class="letter-card">
+      <div class="letter-card-meta">
+        <span>Carta 1</span>
+        <span class="dot"></span>
+        <span>Sentimento</span>
+        <span class="dot"></span>
+        <span>19 de maio de 2026</span>
+      </div>
+      <h2 class="letter-card-title">O que está acontecendo</h2>
+      <p class="letter-card-excerpt">
+        Filho, hoje é dia 19 de maio de 2026. Estou em meu quarto pensando em você.
+        Fazem 40 dias desde a última vez que falamos…
+      </p>
+    </a>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-copy">© <span class="footer-year">2026</span> PapaiRomeo</p>
+  </div>
+</footer>
+
+<script src="../config.js"></script>
+<script src="../script.js"></script>
+</body>
+</html>

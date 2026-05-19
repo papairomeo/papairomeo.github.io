@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — PapaiRomeo</title>
+  <meta name="description" content="Fale com PapaiRomeo.">
+  <link rel="alternate" hreflang="en" href="https://papairomeo.github.io/contato.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://papairomeo.github.io/pt/contato.html">
+  <link rel="canonical" href="https://papairomeo.github.io/pt/contato.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function() {
+      var stored = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = stored || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/pt/" class="site-logo">PapaiRomeo</a>
+    <nav class="site-nav" aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="/cartas/" class="nav-link">Cartas</a></li>
+        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="theme-toggle" aria-label="Alternar tema" title="Alternar tema">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+      <a href="../contato.html" class="lang-flag" aria-label="English" title="English">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="24" height="16" aria-hidden="true">
+          <clipPath id="us-flag-clip"><rect width="60" height="30"/></clipPath>
+          <rect width="60" height="30" fill="#012169"/>
+          <g clip-path="url(#us-flag-clip)">
+            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="3"/>
+            <path d="M30,0 V30 M0,15 H60" stroke="#fff" stroke-width="10"/>
+            <path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/>
+          </g>
+        </svg>
+      </a>
+      <button type="button" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navegação móvel" hidden>
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="/cartas/" class="mobile-nav-link">Cartas</a></li>
+      <li class="mobile-nav-item"><a href="contato.html" class="mobile-nav-link">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main-content">
+
+  <section class="contact-page reveal" aria-labelledby="contact-title">
+    <h1 id="contact-title" class="section-title">Contato</h1>
+    <p class="contact-description">
+      Quer falar comigo? Vamos conversar.
+    </p>
+    <ul class="contact-info">
+      <li class="contact-info-item">
+        <!-- Atualize o e-mail abaixo com o seu real -->
+        <a class="contact-info-link" href="mailto:papairomeo@example.com" aria-label="Enviar e-mail" title="E-mail">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="#EA4335" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-copy">© <span class="footer-year">2026</span> PapaiRomeo</p>
+  </div>
+</footer>
+
+<script src="../config.js"></script>
+<script src="../script.js"></script>
+</body>
+</html>
