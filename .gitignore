@@ -42,3 +42,6 @@ out/
 
 # NOTE: do NOT ignore .nojekyll — it must ship to the repo so GitHub Pages
 # serves files/folders starting with underscores correctly.
+
+# Private project context (local only — never push)
+CONTEXT.md
