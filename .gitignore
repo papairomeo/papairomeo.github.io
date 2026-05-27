@@ -45,3 +45,6 @@ out/
 
 # Private project context (local only — never push)
 CONTEXT.md
+
+# New letter prompt template (local only — never push)
+NEW_LETTER_PROMPT.md
